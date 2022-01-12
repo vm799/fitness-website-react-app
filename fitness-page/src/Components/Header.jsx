@@ -11,6 +11,6 @@ export default function Header(){
                  <a href="#" className="header-btn">JOIN US TODAY</a>
              </div>
                 </div></div>
-        </div>
+      
     )
 }

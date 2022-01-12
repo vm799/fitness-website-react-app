@@ -5,7 +5,7 @@ import fimage2 from "../images/2.svg"
 import fimage3 from "../images/3.svg"
 import fimage4 from "../images/4.svg"
 
-function Feature(){
+export default function Feature(){
     return(
         <div id="features">
             <h1>Features</h1>

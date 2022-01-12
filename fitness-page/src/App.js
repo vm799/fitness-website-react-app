@@ -1,15 +1,20 @@
 import React from "react";
-import Navbar from "./Navbar"
-import Feature from "./Feature"
-import FeatureBox from "./FeatureBox"
-import Offer from "./Offer"
+import Navbar from "./Components/Navbar"
+import Feature from "./Components/Feature"
+import Offer from "./Components/Offer"
+import About from "./Components/About"
+import Header from "./Components/Header";
+import Contact from "./Components/Contact"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-      </header>
+     <Navbar />
+     <Header />
+     <Feature />
+     <Offer />
+     <About />
+     <Contact />
     </div>
   );
 }
