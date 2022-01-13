@@ -9,8 +9,8 @@ export default function Feature(){
     return(
         <div id="features">
             <h1>Features</h1>
-            <div className="a-container">
-                <FeatureBox image={fimage1} title="Stength training" />
+            <div className="feature-container">
+                <FeatureBox image={fimage1} title="Strength training" />
                 <FeatureBox image={fimage2} title="Nutrition" />
                 <FeatureBox image={fimage3} title="Wellbeing" />
                 <FeatureBox image={fimage4} title="Flexibility" />

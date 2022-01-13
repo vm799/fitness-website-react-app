@@ -16,14 +16,11 @@ export default function Navbar(){
    window.addEventListener("scroll", changeBackground)
 
     return (
-        <nav className= {nav ? "nav active" : "nav"}>
+        <nav className= "nav">
 <a href="#" classname ="logo">
-    <img src={logo} alt="gym logo" />
+    <img src="https://icon-library.com/images/gym-icon/gym-icon-0.jpg" alt="gym logo" />
 </a>
-<input clasname="menu-btn" type="checkbox" id="menu-btn"/>
-<label className="menu-icon" for="menu-btn">
-<span className="nav-icon"></span>
-</label>
+
 <ul className="menu">
 <li>
     <Link to="main" smooth={true}
