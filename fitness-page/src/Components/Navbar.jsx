@@ -17,8 +17,8 @@ export default function Navbar(){
 
     return (
         <nav className= "nav">
-<a href="#" classname ="logo">
-    <img src="https://icon-library.com/images/gym-icon/gym-icon-0.jpg" alt="gym logo" />
+<a href="#" classname = "logo">
+    <img src={logo}  alt="gym logo" />
 </a>
 
 <ul className="menu">
