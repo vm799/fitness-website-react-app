@@ -4,21 +4,21 @@ import {Link} from 'react-scroll'
 
 export default function Navbar(){
 
-    const [nav, setNav] = useState(false)
-   function changeBackground(){
-       if(window.scrollY >= 50){
-           setNav(true);
-       } else {
-           setNav(false)
-       }
-   }
+//     const [nav, setNav] = useState(false)
+//    function changeBackground(){
+//        if(window.scrollY >= 50){
+//            setNav(true);
+//        } else {
+//            setNav(false)
+//        }
+//    }
 
-   window.addEventListener("scroll", changeBackground)
+//    window.addEventListener("scroll", changeBackground)
 
     return (
         <nav className= "nav">
-<a href="#" classname = "logo">
-    <img src={logo}  alt="gym logo" />
+<a href="#" >
+    <img classname ="logo" src={logo}  alt="gym logo" />
 </a>
 
 <ul className="menu">

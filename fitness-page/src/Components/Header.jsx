@@ -10,7 +10,7 @@ export default function Header(){
              <p className="details">Build your best self with professional fitness experts </p>
              <p className="details"> and cutting edge equipment</p>
              <div className="header-btn">
-                 <a href="#" className="header-btn">JOIN US TODAY</a>
+                 <a href="mailto:vaishalimehmi@yahoo.co.uk" className="header-btn">JOIN US TODAY</a>
              </div>
                 </div></div>
       
